@@ -111,4 +111,8 @@ class AcademicSettingController extends Controller
             return back()->withError($e->getMessage());
         }
     }
+
+    public function attend () {
+        // 
+    }
 }
